@@ -4,6 +4,8 @@
 
     $clic = new CLIC();
 
+    // I use GET method instead POST just to dev mode.
+
     if(!empty($_GET)){
         $url = $_GET['url'];
         $newUrl = $_GET['newUrl'];
@@ -39,7 +41,7 @@
 
     <?php include_once('includes/header.php');?>
 
-    <div class="container">
+    <div class="container mt-4">
         <div class="row">
             <div class="col-12">
                 <table class="table">
